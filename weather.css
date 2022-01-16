@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: #046f94;
+    background-image: linear-gradient(rgb(40, 168, 168),aqua);
+}
+#container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+#temp
+{
+    text-align: center;
+    color: azure;
+    font-size: 10rem;
+}
+#tempvalue
+{margin-left: 50px;
+}
+#tempunit
+{
+    font-size: 3rem;
+}
+#icon{
+    margin:3rem;
+   width: 40%; height: auto;
+}
+#location
+{
+    margin-top: 80px;
+    font-family: sans-serif;
+    color: azure;
+    font-size:4rem;
+}
+#climate
+{
+    font-family: sans-serif;
+    color: azure;
+    font-size:3rem;
+}
